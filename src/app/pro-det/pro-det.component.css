@@ -3,11 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 1300px;
-}
-
-.broden{
-  max-width: 30rem;
+    height: 600px;
 }
 
 input[type="number"]::-webkit-inner-spin-button, 
@@ -15,4 +11,3 @@ input[type="number"]::-webkit-outer-spin-button
  {
     -webkit-appearance: none;
   }
-  
