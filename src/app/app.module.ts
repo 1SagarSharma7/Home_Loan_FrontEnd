@@ -11,6 +11,8 @@ import { AboUsComponent } from './abo-us/abo-us.component';
 import { UseLogComponent } from './use-log/use-log.component';
 import { AdmLogComponent } from './adm-log/adm-log.component';
 import { HomeComponent } from './home/home.component';
+import { UseDasComponent } from './use-das/use-das.component';
+import { AdmDasComponent } from './adm-das/adm-das.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { HomeComponent } from './home/home.component';
     AboUsComponent,
     UseLogComponent,
     AdmLogComponent,
-    HomeComponent
+    HomeComponent,
+    UseDasComponent,
+    AdmDasComponent
   ],
   imports: [
     BrowserModule,
