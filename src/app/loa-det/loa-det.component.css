@@ -1,16 +1,11 @@
 
 .center{
     display: flex;
-    /* align-items: center; */
+    align-items: center;
     justify-content: center;
-    height: 500px;
-    width: 1500px;
+    height: 600px;
 }
 
-.broden{
-    width: 50rem;
-}
-  
 input[type="number"]::-webkit-inner-spin-button, 
 input[type="number"]::-webkit-outer-spin-button 
  {

@@ -11,8 +11,12 @@ import { AboUsComponent } from './abo-us/abo-us.component';
 import { UseLogComponent } from './use-log/use-log.component';
 import { AdmLogComponent } from './adm-log/adm-log.component';
 import { HomeComponent } from './home/home.component';
-import { UseDasComponent } from './use-das/use-das.component';
 import { AdmDasComponent } from './adm-das/adm-das.component';
+import { UseDasComponent } from './use-das/use-das.component';
+import { LoaDetComponent } from './loa-det/loa-det.component';
+import { IncDetComponent } from './inc-det/inc-det.component';
+import { ProDetComponent } from './pro-det/pro-det.component';
+
 
 @NgModule({
   declarations: [
@@ -25,8 +29,12 @@ import { AdmDasComponent } from './adm-das/adm-das.component';
     UseLogComponent,
     AdmLogComponent,
     HomeComponent,
+    AdmDasComponent,
     UseDasComponent,
-    AdmDasComponent
+    LoaDetComponent,
+    IncDetComponent,
+    ProDetComponent
+
   ],
   imports: [
     BrowserModule,
