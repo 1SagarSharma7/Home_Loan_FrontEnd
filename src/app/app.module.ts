@@ -17,6 +17,8 @@ import { LoaDetComponent } from './loa-det/loa-det.component';
 import { IncDetComponent } from './inc-det/inc-det.component';
 import { ProDetComponent } from './pro-det/pro-det.component';
 
+import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -38,7 +40,9 @@ import { ProDetComponent } from './pro-det/pro-det.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
