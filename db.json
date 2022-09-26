@@ -15,48 +15,6 @@
       "id": 1
     },
     {
-      "firstName": "Sai ",
-      "lastName": "Tarun",
-      "middleName": "Sadashiv",
-      "email": "viraj@patil.com",
-      "password": "viraj@patil.com",
-      "phone": 9876543210,
-      "dob": "2022-09-24",
-      "gender": "Male",
-      "nationality": "Dombivlite ",
-      "aadharNo": 123456,
-      "panNo": "654321",
-      "id": 2
-    },
-    {
-      "firstName": "Umar",
-      "lastName": "Farooq",
-      "middleName": "Sadashiv",
-      "email": "viraj@patil.com",
-      "password": "viraj@patil.com",
-      "phone": 9876543210,
-      "dob": "2022-09-24",
-      "gender": "Male",
-      "nationality": "Dombivlite ",
-      "aadharNo": 123456,
-      "panNo": "654321",
-      "id": 3
-    },
-    {
-      "firstName": "Priyal",
-      "lastName": "Kumar",
-      "middleName": "Sadashiv",
-      "email": "viraj@patil.com",
-      "password": "viraj@patil.com",
-      "phone": 9876543210,
-      "dob": "2022-09-24",
-      "gender": "Male",
-      "nationality": "Dombivlite ",
-      "aadharNo": 123456,
-      "panNo": "654321",
-      "id": 4
-    },
-    {
       "firstName": "Sagar",
       "lastName": "Sharma",
       "middleName": "Sanjay",
@@ -83,6 +41,23 @@
       "aadharNo": 123,
       "panNo": "asdf",
       "id": 6
+    }
+  ],
+  "admins": [
+    {
+      "id": 1001,
+      "username": "viraj@patil",
+      "password": "viraj@patil"
+    },
+    {
+      "id": 1002,
+      "username": "sagar@sharma",
+      "password": "sagar@sharma"
+    },
+    {
+      "id": 1003,
+      "username": "asdf",
+      "password": "asdf"
     }
   ],
   "comments": [

@@ -6,6 +6,7 @@ import { AdmLogComponent } from './adm-log/adm-log.component';
 import { AppForComponent } from './app-for/app-for.component';
 import { EliCalComponent } from './eli-cal/eli-cal.component';
 import { EmiCalComponent } from './emi-cal/emi-cal.component';
+import { ErrorComponent } from './error/error.component';
 import { HomeComponent } from './home/home.component';
 import { IncDetComponent } from './inc-det/inc-det.component';
 import { LoaDetComponent } from './loa-det/loa-det.component';
@@ -26,7 +27,10 @@ const routes: Routes = [
   {path:'pro-det', component:ProDetComponent},
   {path:'inc-det', component:IncDetComponent},
   {path:'loa-det', component:LoaDetComponent},
-
+  // {path:'error', component:ErrorComponent},
+  {path:"", redirectTo:"/home", pathMatch: "full"},
+  // {path:"**", redirectTo:"/error", pathMatch: "full"},
+  
 ];
 
 @NgModule({

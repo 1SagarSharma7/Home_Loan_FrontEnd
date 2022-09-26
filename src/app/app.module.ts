@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+// import rjxs;
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -19,6 +19,9 @@ import { ProDetComponent } from './pro-det/pro-det.component';
 
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { ErrorComponent } from './error/error.component';
+import { UseNavComponent } from './use-nav/use-nav.component';
+import { AdmNavComponent } from './adm-nav/adm-nav.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +38,10 @@ import { HttpClientModule } from '@angular/common/http';
     UseDasComponent,
     LoaDetComponent,
     IncDetComponent,
-    ProDetComponent
+    ProDetComponent,
+    ErrorComponent,
+    UseNavComponent,
+    AdmNavComponent
 
   ],
   imports: [

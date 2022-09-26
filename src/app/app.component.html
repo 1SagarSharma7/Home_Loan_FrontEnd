@@ -1,5 +1,8 @@
-
-<app-navbar></app-navbar>
+<!--   -->
+<!--  (change) =  "recieveMessage($event)" -->
+<app-navbar  *ngIf ="showOther" ></app-navbar>
+<app-use-nav *ngIf ="showUser"></app-use-nav>
+<app-adm-nav *ngIf ="showAdmin"></app-adm-nav>
 
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * The content above * * * * * * * * * * * -->
