@@ -41,6 +41,20 @@
       "aadharNo": 123,
       "panNo": "asdf",
       "id": 6
+    },
+    {
+      "firstName": "qwerty",
+      "lastName": "qwerty",
+      "middleName": "qwerty",
+      "email": "qwerty",
+      "password": "qwerty",
+      "phone": 1223434,
+      "dob": "2022-09-26",
+      "gender": "qwerty",
+      "nationality": "qwerty",
+      "aadharNo": 12324421,
+      "panNo": "12324421",
+      "id": 7
     }
   ],
   "admins": [
@@ -58,6 +72,94 @@
       "id": 1003,
       "username": "asdf",
       "password": "asdf"
+    }
+  ],
+  "inc-det": [
+    {
+      "propertyName": "Mannat1",
+      "propertyLocation": "Mumbai",
+      "amount": 250,
+      "retirementAge": 40,
+      "monthlySalary": 25000,
+      "organization": "Social Welfare",
+      "user": {
+        "firstName": "Viraj",
+        "lastName": "Patil",
+        "middleName": "Sadashiv",
+        "email": "viraj@patil.com",
+        "password": "viraj@patil.com",
+        "phone": 9876543210,
+        "dob": "2022-09-24",
+        "gender": "Male",
+        "nationality": "Dombivlite ",
+        "aadharNo": 123456,
+        "panNo": "654321"
+      },
+      "id": 1
+    },
+    {
+      "propertyName": "jannat",
+      "propertyLocation": "kanjurmarg",
+      "amount": 200,
+      "retirementAge": 30,
+      "monthlySalary": 30000,
+      "organization": "lti",
+      "user": {
+        "firstName": "Sagar",
+        "lastName": "Sharma",
+        "middleName": "Sanjay",
+        "email": "sagar@sharma.com",
+        "password": "sagar@sharma.com",
+        "phone": 9876543210,
+        "dob": "2022-09-23",
+        "gender": "Male",
+        "nationality": "Indian",
+        "aadharNo": 123456,
+        "panNo": "654321"
+      },
+      "id": 2
+    }
+  ],
+  "loa-det": [
+    {
+      "loanAmount": 250,
+      "tenure": 275,
+      "interest": 6,
+      "status": "Approved?Rejected?Pending",
+      "user": {
+        "firstName": "Viraj",
+        "lastName": "Patil",
+        "middleName": "Sadashiv",
+        "email": "viraj@patil.com",
+        "password": "viraj@patil.com",
+        "phone": 9876543210,
+        "dob": "2022-09-24",
+        "gender": "Male",
+        "nationality": "Dombivlite ",
+        "aadharNo": 123456,
+        "panNo": "654321"
+      },
+      "id": 1
+    },
+    {
+      "loanAmount": 200,
+      "tenure": 1,
+      "interest": 6,
+      "status": "nahi pata",
+      "user": {
+        "firstName": "Sagar",
+        "lastName": "Sharma",
+        "middleName": "Sanjay",
+        "email": "sagar@sharma.com",
+        "password": "sagar@sharma.com",
+        "phone": 9876543210,
+        "dob": "2022-09-23",
+        "gender": "Male",
+        "nationality": "Indian",
+        "aadharNo": 123456,
+        "panNo": "654321"
+      },
+      "id": 2
     }
   ],
   "comments": [

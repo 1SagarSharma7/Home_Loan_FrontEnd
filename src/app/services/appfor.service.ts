@@ -16,4 +16,18 @@ export class AppforService {
     }))
   }
 
+  postIncDet(data : any){
+    return this.http.post<any>("http://localhost:3000/inc-det", data)
+    .pipe(map((res:any) => {
+      return res;
+    }))
+  }
+
+  postLoaDet(data : any){
+    return this.http.post<any>("http://localhost:3000/loa-det", data)
+    .pipe(map((res:any) => {
+      return res;
+    }))
+  }
+
 }

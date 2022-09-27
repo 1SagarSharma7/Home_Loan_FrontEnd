@@ -5,6 +5,8 @@ import { Injectable, EventEmitter } from '@angular/core';
 })
 export class ShareService {
 
+  user_email !: string;
+  user_password !: string;
   
   $isLoggedIn = new EventEmitter();
   Other : boolean = true;
@@ -30,6 +32,17 @@ export class ShareService {
     console.log("aaaaaaaahhhhhh!!!");
     let val: boolean[] = [false, false, true];
     this.$isLoggedIn.emit(val);
+  }
+  
+  
+  setUser(email : string, password : string){
+    this.user_email = email;
+    this.user_password = password;
+  }
+  
+  getUser(){
+    let user_details : string[] = [this.user_email, this.user_password];
+    return user_details;
   }
 
 

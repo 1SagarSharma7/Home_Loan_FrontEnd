@@ -48,6 +48,9 @@ export class UseLogComponent implements OnInit {
         // this.event.emit(true);
         alert("Login successful !!!");
         console.log("here");
+        
+        this.share.setUser(this.loginForm.value.email, this.loginForm.value.password);
+
         this.loginForm.reset();
         this.router.navigate(['use-das']);
         // this.event2.emit(false);
