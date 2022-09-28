@@ -14,6 +14,7 @@ export class UserModel{
 
 
 export class IncDetModel{
+    id : number = 0;
     propertyName : string = "";
     propertyLocation : string = "";
     amount : number = 0;

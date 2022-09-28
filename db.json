@@ -55,6 +55,20 @@
       "aadharNo": 12324421,
       "panNo": "12324421",
       "id": 7
+    },
+    {
+      "id": 8,
+      "firstName": "vijay",
+      "lastName": "chauhan",
+      "middleName": "dinanath",
+      "email": "vijay@chauhan.com",
+      "password": "vijay@chauhan.com",
+      "phone": 1231231230,
+      "dob": "2013-10-29",
+      "gender": "Female",
+      "nationality": "Indian",
+      "aadharNo": 123123,
+      "panNo": "321321"
     }
   ],
   "admins": [
@@ -76,12 +90,13 @@
   ],
   "inc-det": [
     {
-      "propertyName": "Mannat1",
-      "propertyLocation": "Mumbai",
-      "amount": 250,
-      "retirementAge": 40,
-      "monthlySalary": 25000,
-      "organization": "Social Welfare",
+      "id": 3,
+      "propertyName": "mannat",
+      "propertyLocation": "123",
+      "amount": 123,
+      "retirementAge": 123,
+      "monthlySalary": 123,
+      "organization": "123",
       "user": {
         "firstName": "Viraj",
         "lastName": "Patil",
@@ -94,16 +109,60 @@
         "nationality": "Dombivlite ",
         "aadharNo": 123456,
         "panNo": "654321"
-      },
-      "id": 1
+      }
     },
     {
-      "propertyName": "jannat",
-      "propertyLocation": "kanjurmarg",
-      "amount": 200,
-      "retirementAge": 30,
-      "monthlySalary": 30000,
-      "organization": "lti",
+      "id": 4,
+      "propertyName": "asdf",
+      "propertyLocation": "khandala",
+      "amount": 123,
+      "retirementAge": 123,
+      "monthlySalary": 123,
+      "organization": "123",
+      "user": {
+        "firstName": "qwerty",
+        "lastName": "qwerty",
+        "middleName": "qwerty",
+        "email": "qwerty",
+        "password": "qwerty",
+        "phone": 1223434,
+        "dob": "2022-09-26",
+        "gender": "qwerty",
+        "nationality": "qwerty",
+        "aadharNo": 12324421,
+        "panNo": "12324421"
+      }
+    },
+    {
+      "id": 5,
+      "propertyName": "gjk",
+      "propertyLocation": "gk",
+      "amount": 890,
+      "retirementAge": 7890,
+      "monthlySalary": 7890,
+      "organization": "7089",
+      "user": {
+        "firstName": "vijay",
+        "lastName": "chauhan",
+        "middleName": "dinanath",
+        "email": "vijay@chauhan.com",
+        "password": "vijay@chauhan.com",
+        "phone": 1231231230,
+        "dob": "2013-10-29",
+        "gender": "Female",
+        "nationality": "Indian",
+        "aadharNo": 123123,
+        "panNo": "321321"
+      }
+    },
+    {
+      "id": 6,
+      "propertyName": "sagar",
+      "propertyLocation": "123",
+      "amount": 123,
+      "retirementAge": 123,
+      "monthlySalary": 123,
+      "organization": "123",
       "user": {
         "firstName": "Sagar",
         "lastName": "Sharma",
@@ -116,36 +175,56 @@
         "nationality": "Indian",
         "aadharNo": 123456,
         "panNo": "654321"
-      },
-      "id": 2
+      }
     }
   ],
   "loa-det": [
     {
-      "loanAmount": 250,
-      "tenure": 275,
-      "interest": 6,
-      "status": "Approved?Rejected?Pending",
+      "id": 1,
+      "loanAmount": "asdf",
+      "tenure": 123,
+      "interest": 123,
+      "status": 123124124124,
       "user": {
-        "firstName": "Viraj",
-        "lastName": "Patil",
-        "middleName": "Sadashiv",
-        "email": "viraj@patil.com",
-        "password": "viraj@patil.com",
-        "phone": 9876543210,
-        "dob": "2022-09-24",
-        "gender": "Male",
-        "nationality": "Dombivlite ",
-        "aadharNo": 123456,
-        "panNo": "654321"
-      },
-      "id": 1
+        "firstName": "qwerty",
+        "lastName": "qwerty",
+        "middleName": "qwerty",
+        "email": "qwerty",
+        "password": "qwerty",
+        "phone": 1223434,
+        "dob": "2022-09-26",
+        "gender": "qwerty",
+        "nationality": "qwerty",
+        "aadharNo": 12324421,
+        "panNo": "12324421"
+      }
     },
     {
-      "loanAmount": 200,
-      "tenure": 1,
-      "interest": 6,
-      "status": "nahi pata",
+      "id": 2,
+      "loanAmount": 789,
+      "tenure": 8678,
+      "interest": 456,
+      "status": "2fdsg1",
+      "user": {
+        "firstName": "vijay",
+        "lastName": "chauhan",
+        "middleName": "dinanath",
+        "email": "vijay@chauhan.com",
+        "password": "vijay@chauhan.com",
+        "phone": 1231231230,
+        "dob": "2013-10-29",
+        "gender": "Female",
+        "nationality": "Indian",
+        "aadharNo": 123123,
+        "panNo": "321321"
+      }
+    },
+    {
+      "id": 3,
+      "loanAmount": 123,
+      "tenure": 123,
+      "interest": 213,
+      "status": 567,
       "user": {
         "firstName": "Sagar",
         "lastName": "Sharma",
@@ -158,8 +237,7 @@
         "nationality": "Indian",
         "aadharNo": 123456,
         "panNo": "654321"
-      },
-      "id": 2
+      }
     }
   ],
   "comments": [

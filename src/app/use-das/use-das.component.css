@@ -8,7 +8,12 @@
 }
 
 .broden{
-    width: 50rem;
+    width: 30rem;
+}
+
+.adjust{
+    display: flex;
+    justify-content: center;
 }
   
 input[type="number"]::-webkit-inner-spin-button, 

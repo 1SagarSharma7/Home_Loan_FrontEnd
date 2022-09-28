@@ -1,4 +1,5 @@
-export class AppForModel{    
+export class AppForModel{  
+    id : number = 0;  
     firstName : string = "";
     lastName : string = "";
     middleName : string = "";

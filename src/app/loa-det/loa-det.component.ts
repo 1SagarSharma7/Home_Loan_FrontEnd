@@ -84,7 +84,7 @@ export class LoaDetComponent implements OnInit {
         console.log(res);
         alert("loan details added successfully");
         this.formValue.reset();
-        // this.router.navigate(['loa-det']);
+        this.router.navigate(['pro-det']);
       },
       err => {
         alert("Something went terribly wrong.");

@@ -14,6 +14,7 @@ export class UserModel{
 
 
 export class LoaDetModel{
+    id : number = 0;
     loanAmount : string = "";
     tenure : string = "";
     interest : number = 0;
