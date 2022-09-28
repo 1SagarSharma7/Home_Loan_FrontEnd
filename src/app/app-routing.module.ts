@@ -10,6 +10,7 @@ import { ErrorComponent } from './error/error.component';
 import { HomeComponent } from './home/home.component';
 import { IncDetComponent } from './inc-det/inc-det.component';
 import { LoaDetComponent } from './loa-det/loa-det.component';
+import { LoaTraComponent } from './loa-tra/loa-tra.component';
 import { ProDetComponent } from './pro-det/pro-det.component';
 import { UseDasComponent } from './use-das/use-das.component';
 import { UseLogComponent } from './use-log/use-log.component';
@@ -27,6 +28,7 @@ const routes: Routes = [
   {path:'pro-det', component:ProDetComponent},
   {path:'inc-det', component:IncDetComponent},
   {path:'loa-det', component:LoaDetComponent},
+  {path:'loa-tra', component:LoaTraComponent},
   // {path:'error', component:ErrorComponent},
   {path:"", redirectTo:"/home", pathMatch: "full"},
   // {path:"**", redirectTo:"/error", pathMatch: "full"},

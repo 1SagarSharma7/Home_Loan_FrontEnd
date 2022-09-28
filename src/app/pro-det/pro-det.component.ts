@@ -28,7 +28,7 @@ export class ProDetComponent implements OnInit {
   loanAmount : string = "";
   tenure : string = "";
   interest : number = 0;
-  status : string = "";
+  status : string = "pending";
   user2 !: UserModel;
 
   formValue !: FormGroup;
@@ -170,7 +170,7 @@ export class ProDetComponent implements OnInit {
     this.formValue2.controls['loanAmount'].setValue(this.loanAmount);
     this.formValue2.controls['tenure'].setValue(this.tenure);
     this.formValue2.controls['interest'].setValue(this.interest);
-    this.formValue2.controls['status'].setValue(this.status);
+    // this.formValue2.controls['status'].setValue(this.status);
   }
 
 
@@ -178,7 +178,7 @@ export class ProDetComponent implements OnInit {
     this.LoaModelObj.loanAmount = this.formValue2.value.loanAmount;
     this.LoaModelObj.tenure = this.formValue2.value.tenure;
     this.LoaModelObj.interest = this.formValue2.value.interest;
-    this.LoaModelObj.status = this.formValue2.value.status;
+    this.LoaModelObj.status = this.status;
     this.LoaModelObj.user = this.user2;
     
     console.log(this.LoaModelObj);

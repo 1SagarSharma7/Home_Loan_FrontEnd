@@ -76,7 +76,7 @@ export class LoaDetComponent implements OnInit {
     this.LoaDetModelObj.loanAmount = this.formValue.value.loanAmount;
     this.LoaDetModelObj.tenure = this.formValue.value.tenure;
     this.LoaDetModelObj.interest = this.formValue.value.interest;
-    this.LoaDetModelObj.status = this.formValue.value.status;
+    this.LoaDetModelObj.status = "pending";
 
     setTimeout(()=>{
       this.api.postLoaDet(this.LoaDetModelObj)

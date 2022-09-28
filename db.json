@@ -43,6 +43,7 @@
       "id": 6
     },
     {
+      "id": 7,
       "firstName": "qwerty",
       "lastName": "qwerty",
       "middleName": "qwerty",
@@ -50,17 +51,16 @@
       "password": "qwerty",
       "phone": 1223434,
       "dob": "2022-09-26",
-      "gender": "qwerty",
+      "gender": "male",
       "nationality": "qwerty",
       "aadharNo": 12324421,
-      "panNo": "12324421",
-      "id": 7
+      "panNo": "12324421"
     },
     {
       "id": 8,
       "firstName": "vijay",
       "lastName": "chauhan",
-      "middleName": "dinanath",
+      "middleName": "sadfsadf",
       "email": "vijay@chauhan.com",
       "password": "vijay@chauhan.com",
       "phone": 1231231230,
@@ -69,6 +69,20 @@
       "nationality": "Indian",
       "aadharNo": 123123,
       "panNo": "321321"
+    },
+    {
+      "id": 9,
+      "firstName": "",
+      "lastName": "",
+      "middleName": "",
+      "email": "",
+      "password": "",
+      "phone": "",
+      "dob": "",
+      "gender": "",
+      "nationality": "",
+      "aadharNo": "",
+      "panNo": ""
     }
   ],
   "admins": [
@@ -112,30 +126,8 @@
       }
     },
     {
-      "id": 4,
-      "propertyName": "asdf",
-      "propertyLocation": "khandala",
-      "amount": 123,
-      "retirementAge": 123,
-      "monthlySalary": 123,
-      "organization": "123",
-      "user": {
-        "firstName": "qwerty",
-        "lastName": "qwerty",
-        "middleName": "qwerty",
-        "email": "qwerty",
-        "password": "qwerty",
-        "phone": 1223434,
-        "dob": "2022-09-26",
-        "gender": "qwerty",
-        "nationality": "qwerty",
-        "aadharNo": 12324421,
-        "panNo": "12324421"
-      }
-    },
-    {
       "id": 5,
-      "propertyName": "gjk",
+      "propertyName": "sadfsdfa",
       "propertyLocation": "gk",
       "amount": 890,
       "retirementAge": 7890,
@@ -176,15 +168,15 @@
         "aadharNo": 123456,
         "panNo": "654321"
       }
-    }
-  ],
-  "loa-det": [
+    },
     {
-      "id": 1,
-      "loanAmount": "asdf",
-      "tenure": 123,
-      "interest": 123,
-      "status": 123124124124,
+      "id": 7,
+      "propertyName": "345",
+      "propertyLocation": "345",
+      "amount": 435,
+      "retirementAge": 345,
+      "monthlySalary": 345,
+      "organization": "345",
       "user": {
         "firstName": "qwerty",
         "lastName": "qwerty",
@@ -193,16 +185,18 @@
         "password": "qwerty",
         "phone": 1223434,
         "dob": "2022-09-26",
-        "gender": "qwerty",
+        "gender": "male",
         "nationality": "qwerty",
         "aadharNo": 12324421,
         "panNo": "12324421"
       }
-    },
+    }
+  ],
+  "loa-det": [
     {
       "id": 2,
       "loanAmount": 789,
-      "tenure": 8678,
+      "tenure": "67878678768",
       "interest": 456,
       "status": "2fdsg1",
       "user": {
@@ -237,6 +231,26 @@
         "nationality": "Indian",
         "aadharNo": 123456,
         "panNo": "654321"
+      }
+    },
+    {
+      "id": 4,
+      "loanAmount": 56,
+      "tenure": "234",
+      "interest": 68686,
+      "status": "pending",
+      "user": {
+        "firstName": "qwerty",
+        "lastName": "qwerty",
+        "middleName": "qwerty",
+        "email": "qwerty",
+        "password": "qwerty",
+        "phone": 1223434,
+        "dob": "2022-09-26",
+        "gender": "male",
+        "nationality": "qwerty",
+        "aadharNo": 12324421,
+        "panNo": "12324421"
       }
     }
   ],

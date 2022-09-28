@@ -22,6 +22,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { ErrorComponent } from './error/error.component';
 import { UseNavComponent } from './use-nav/use-nav.component';
 import { AdmNavComponent } from './adm-nav/adm-nav.component';
+import { LoaTraComponent } from './loa-tra/loa-tra.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { AdmNavComponent } from './adm-nav/adm-nav.component';
     ProDetComponent,
     ErrorComponent,
     UseNavComponent,
-    AdmNavComponent
+    AdmNavComponent,
+    LoaTraComponent
 
   ],
   imports: [
